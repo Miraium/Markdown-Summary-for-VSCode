@@ -1,9 +1,9 @@
 # README
 
-Visual Studio Codeで使えるMarkdownのまとめ用
+Visual Studio Codeで使えるMarkdownのまとめ用  
 このリポジトリには，記法と出力のサンプルを掲載
 
-詳細は以下のブログ記事にまとめてあります。
+詳細は以下のブログ記事にまとめてあります。  
 [Visual Studio Codeで使えるMarkdown記法のまとめ](http://miraium.com/markdown-summary-for-vscode/)
 
 
