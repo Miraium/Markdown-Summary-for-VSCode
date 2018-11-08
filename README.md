@@ -6,7 +6,6 @@ Visual Studio Codeで使えるMarkdownのまとめ用
 詳細は以下のブログ記事にまとめてあります。  
 [Visual Studio Codeで使えるMarkdown記法のまとめ](http://miraium.com/markdown-summary-for-vscode/)
 
-
 ## 記法と出力の一覧
 
 ### Italic / 斜体
@@ -15,6 +14,7 @@ Visual Studio Codeで使えるMarkdownのまとめ用
 *Italic*
 _Italic_
 ```
+
 *Italic*
 _Italic_
 
@@ -26,6 +26,7 @@ _Italic_
 **Bold**
 __Bold__
 ```
+
 **Bold**
 __Bold__
 
@@ -42,11 +43,14 @@ __Bold__
 見出し2
 ------
 ```
+
 # 見出し1
+
 見出し1
 ======
 
 ## 見出し2
+
 見出し2
 ------
 
@@ -56,19 +60,18 @@ __Bold__
 
 ```Markdown
 [Link_直接方式](https://miraium.com/)
-[Link_参照方式][ref_1] 
+[Link_参照方式][ref_1]  
 ...
 [ref_1]: https://miraium.com/
 
 [Link_相対リンク](sample_folder/sample_file.md)
 ```
+
 [Link_直接方式](https://miraium.com/)
-[Link_参照方式][ref_1] 
+[Link_参照方式][ref_1]
 [Link_相対リンク](sample_folder/sample_file.md)
 
-
-
---- 
+---
 
 ### Image / 画像
 
@@ -101,9 +104,7 @@ __Bold__
 ![Local Image_直接方式](sample_folder/sample_image.png)
 ![Local Image_参照方式][ref_4]
 
-
 ---
-
 
 ### Ordered List / 順序付きリスト
 
@@ -124,7 +125,6 @@ __Bold__
 1) 順序付きリスト
 2) 順序付きリスト
 3) 順序付きリスト
-
 
 ---
 
@@ -161,21 +161,22 @@ __Bold__
 ---
 ***
 
-
 ---
 
 ### Inline Code / インラインコード
+
 ```Markdown
 `inline code`
 ```
+
 `inline code`
 
-
---- 
+---
 
 ### Code Block / コードブロック
 
 <pre>
+
 ```
 # コードブロック
 print `3つの backtick もしくは`
@@ -197,6 +198,7 @@ print `4つのインデントスペース`
 | `inline`使用可| *Italic*もOK   | `             |
 | `inline`使用可| **Bold**もOK   | \|            |
 ```
+
 | Left-aligned | Center-aligned | Right-aligned |
 | :----------- | :------------: |          ---: |
 | `inline`使用可| *Italic*もOK   | `             |
@@ -205,11 +207,12 @@ print `4つのインデントスペース`
 ---
 
 ### Strikethrough / 取り消し線
+
 ```Markdown
 ~~Strikethrough~~
 ```
-~~Strikethrough~~
 
+~~Strikethrough~~
 
 <!-- 以下は，参照方式のリンク・画像用 -->
 <!-- テキストとしては表示されない -->
